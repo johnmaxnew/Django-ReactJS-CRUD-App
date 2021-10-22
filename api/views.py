@@ -39,3 +39,8 @@ def getRoutes(request):
         },
     ]
     return Response(routes)
+
+@api_view(['GET'])
+def getRoutes(request):
+
+    return Response('NOTES')

@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.getRoutes, name='routes'),
+    path('notes/', views.getRoutes, name='notes'),
 ]
