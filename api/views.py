@@ -42,5 +42,5 @@ def getRoutes(request):
 
 @api_view(['GET'])
 def getRoutes(request):
-
+    notes = Note.objects.all()
     return Response('NOTES')
